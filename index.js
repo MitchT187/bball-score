@@ -1,4 +1,5 @@
 let count = 0
+let count2 = 0
 let score = document.getElementById("score-brd")
 let away = document.getElementById("score-brd2")
 function freethrow(){
@@ -17,22 +18,23 @@ function threePoint(){
 }
 
 function freethrow2(){
-   count = count + 1
+   count = count2 + 1
     away.innerText = count    
 }
 
 function twoPoint2(){
-   count = count + 2
+   count = count2 + 2
     away.innerText = count    
 }
 
 function threePoint2(){
-   count = count + 3
+   count = count2 + 3
     away.innerText = count    
 }
 
 function newGame(){
     count = 0
+    count2 = 0
     away.innerText = count
     score.innerText = count  
 }
