@@ -1,0 +1,73 @@
+@font-face{
+    src: url(scoreboard.ttf);
+    font-family: Points 
+}
+
+body {
+    margin-top: 0px;
+    text-align: center;
+    background-image: url(court2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    max-width: 100%;
+    color: yellow;
+    font-size:40px;
+    text-shadow: 2px 2px 10px orange;
+    }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#score-brd{
+    padding-left: 30px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 7px;
+    border: 8px double white;
+    text-shadow: none;
+    text-align: center;
+    padding: 50px;
+    width: 20vh;
+    color: red;
+    font-family: Points;
+    font-size: 13vh;
+    text-shadow: 2px 2px white;
+}
+
+#score-brd2{
+    padding-left: 30px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 7px;
+    border: 8px double white;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    padding: 50px;
+    width: 20vh;
+    margin-top: none;
+    color: red;
+    font-family: Points;
+    font-size: 13vh;
+}
+
+
+button {
+    border: none;
+    color: yellow;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin-top: 12px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 7px;
+    font-size: 4vh;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.9);
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-family: Points;
+    
+}
+
+.new-game{
+    margin-top:30px;
+}
