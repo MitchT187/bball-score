@@ -18,17 +18,17 @@ function threePoint(){
 }
 
 function freethrow2(){
-   count = count2 + 1
+   count2 = count2 + 1
     away.innerText = count2    
 }
 
 function twoPoint2(){
-   count = count2 + 2
+   count2 = count2 + 2
     away.innerText = count2    
 }
 
 function threePoint2(){
-   count = count2 + 3
+   count2 = count2 + 3
     away.innerText = count2    
 }
 
@@ -38,3 +38,4 @@ function newGame(){
     away.innerText = count2
     score.innerText = count  
 }
+
